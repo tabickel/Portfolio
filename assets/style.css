@@ -1,0 +1,236 @@
+body{
+background-image: url("../assets/images/PortfolioBackground.jpeg");
+  margin: 0;
+  padding: 0;
+}
+h1{
+    font-family: 'Bangers', cursive;
+	font-size: 100px;
+	color: red;
+	opacity: 0.8;
+	text-align: center;
+	margin-left: -200px;
+}
+h2{
+    font-family: 'Bangers', cursive;
+	font-size: 40px;
+    color: black;
+    opacity:0.7;
+	text-align: center;
+}
+h3{
+    font-family: 'Bangers', cursive;
+	font-size: 40px;
+	color: red;
+    opacity:0.7;
+	text-align: center;
+}
+p{
+    font-family: 'Bangers', cursive;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+    opacity:0.7;
+}
+#main-container{
+	background-color: tan;
+	height:575px;
+	position: relative;
+	width:100%;
+	top:200px;
+	font-size: 15px;
+}
+.topnav {
+    background-color:#D5E0E0;
+    overflow: hidden;
+    font-family: 'Bangers', cursive;
+}
+.topnav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    opacity: 0.7;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.active {
+    color: white;
+}
+.topnav .icon {
+    display: none;
+}
+.skills{
+	background-color:#D5E0E0;
+	height:500px;
+	width: 100%;
+}
+.contact{
+	background-color:tan;
+	height:500px;
+
+}
+.section {
+  align-content: center;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background:tan;
+}
+#contact-form ul {
+  margin-bottom: 20px;
+}
+#contact-form li {
+  margin-bottom: 10px;
+}
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+textarea {
+  height: 200px;
+}
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color:tan;
+  cursor: pointer;
+  background:black;
+  opacity:0.7;
+  border: 0 none;
+  font-family: 'Bangers', cursive;
+
+}
+#sub-container{
+	height: 700px;
+	background-color: tan;
+	float: middle;
+}
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background-color:#D5E0E0;
+  font-family: 'Bangers', cursive;
+  color:black;
+  opacity:0.9;
+}
+#connect{
+	float:center;
+}
+@media screen and (max-width: 980px) {
+    body {
+        width:100%;
+        margin: 0;
+  padding: 0;
+    }
+    h1{
+      width:100%;
+      margin: 0;
+  padding: 0;
+    }
+    #masthead{
+      width:100%;
+      margin: 0;
+  padding: 0;
+    }
+    .sidebar{
+      width:100%;
+    }
+    .mainsection{
+      width:100%;
+    }
+    nav a{
+      width:100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        width:100%;
+        margin: 0;
+  padding: 0;
+    }
+    h1{
+      width:100%;
+      margin: 0;
+      padding: 0;
+    }
+    #masthead{
+      width:100%;
+      margin: 0;
+  padding: 0;
+    }
+    .sidebar{
+      width:100%;
+      margin: 0;
+  	  padding: 0;
+    }
+    .mainsection{
+      width:100%;
+      margin: 0;
+  	  padding: 0;
+    }
+    nav a{
+      width:100%;
+      margin: 0;
+  	  padding: 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+    	      width:100%;
+        margin: 0;
+  padding: 0;
+  
+    }
+    nav{
+    	width:100%;
+    	        margin: 0;
+  padding: 0;
+    }
+    h1{
+      width:40%;
+      margin: 0;
+  padding: 0;
+  font-size: 80px;
+    }
+    #masthead{
+      width:100%;
+      margin: 0;
+  padding: 0;
+    }
+    .sidebar{
+      width:100%;
+      margin: 0;
+      padding: 0;
+    }
+    #main-container{
+      width:100%;
+            margin: 0;
+  padding: 0;
+  height: 900px;
+    }
+
+    footer{
+    	width: 100%;
+    }
+}
